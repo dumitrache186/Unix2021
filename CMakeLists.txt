@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Tutorial)
 
 # add the executable
-add_executable(Tutorial tutorial.cxx)
+add_executable(Tutorial TutorialConfig.h)
 
 # set the project name and version
 project(Tutorial VERSION 1.0)
